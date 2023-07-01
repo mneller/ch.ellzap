@@ -1,4 +1,4 @@
-import { getGreeting } from '../support/app.po';
+import { getNavBar } from '../support/app.po';
 
 describe('playground1', () => {
   beforeEach(() => cy.visit('/'));
@@ -7,7 +7,7 @@ describe('playground1', () => {
     // Custom command example, see `../support/commands.ts` file
     cy.login('my-email@something.com', 'myPassword');
 
-    // Function helper example, see `../support/app.po.ts` file
-    getGreeting().contains('Welcome playground1');
+    // Function helper example, see `../support/app.po.ts` file¬
+    getNavBar().contains('ellzap.ch');
   });
 });

@@ -57,6 +57,10 @@
         },
         "development": {
           "browserTarget": "playground1:build:development"
+        },
+        "options": {
+          "verbose": true,
+          "output-style": "static"
         }
       },
       "defaultConfiguration": "development"
